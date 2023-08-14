@@ -1,0 +1,36 @@
+/* SocialIcons.css */
+.social-icons {
+    display: flex;
+    justify-content: flex-end; /* Isso alinhará os elementos horizontalmente com espaçamento igual entre eles */
+    align-items: center; /* Isso centralizará verticalmente os elementos */
+    padding: 1rem;
+    gap: 5rem;
+    background-color: #795CD2;
+  }
+  
+  .icon-links {
+    display: flex;
+    gap: 1rem;
+    margin-right: 193px;
+  }
+  
+  .icon-link {
+    color: #333;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .icon-link:hover {
+    color: #007bff;
+  }
+  
+  .icons {
+    margin: 0; /* Remova as margens padrão do parágrafo */
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .icon-links{
+       margin: 0;
+    }
+  }
