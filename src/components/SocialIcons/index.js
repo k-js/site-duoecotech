@@ -6,7 +6,7 @@ import './style.css'
 const SocialIcons = () => {
   return (
     <div className="social-icons">
-      <p className="icons">duoecotec@gmail.com</p>
+      <p className="icons">duoecotech@gmail.com</p>
       <div className="icon-links">
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="icon-link">
           <FontAwesomeIcon icon={faLinkedin} />
