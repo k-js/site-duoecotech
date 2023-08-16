@@ -5,7 +5,7 @@ const ServicesProducts = () => {
   return (
     <div className="services-products-container">
       <div className="service-item">
-        <h2>Podcast DuoEcoTech</h2>
+        <h2>Vodcast DuoEcoTech</h2>
         <p>Destacamos o vodcast "DuoEcoTech" como nosso carro-chefe.</p>
       </div>
       <div className="service-item">
