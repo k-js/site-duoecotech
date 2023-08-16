@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="social-icons-footer">
-      <a href="" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.youtube.com/@duoecotech/about" target="_blank" rel="noopener noreferrer">
           <FaYoutube className="social-icon" />
         </a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
