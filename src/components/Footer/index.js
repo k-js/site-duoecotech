@@ -1,11 +1,14 @@
 import React from 'react';
-import { FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
 import './style.css'; // Estilização
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="social-icons-footer">
+      <a href="" target="_blank" rel="noopener noreferrer">
+          <FaYoutube className="social-icon" />
+        </a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="social-icon" />
         </a>

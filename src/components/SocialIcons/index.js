@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin, faInstagram, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import './style.css'
 
 const SocialIcons = () => {
@@ -8,6 +8,9 @@ const SocialIcons = () => {
     <div className="social-icons">
       <p className="icons">duoecotech@gmail.com</p>
       <div className="icon-links">
+      <a href="" target="_blank" rel="noopener noreferrer" className="icon-link">
+          <FontAwesomeIcon icon={faYoutube} />
+        </a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="icon-link">
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
