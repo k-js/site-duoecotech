@@ -10,7 +10,7 @@ const Carousel = ({ images }) => {
 
   return (
     <div className="carousel">
-      <img className="carousel-image" src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
+      <img className="carousel-image" src={images[currentIndex]} alt={`${currentIndex + 1}`} />
       <div className="carousel-dots">
         {images.map((_, index) => (
           <div
