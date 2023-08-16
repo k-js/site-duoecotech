@@ -43,5 +43,8 @@
     .carousel-button {
       font-size: 18px;
     }
+    .carousel-image{
+      height: 530px
+    }
   }
   
