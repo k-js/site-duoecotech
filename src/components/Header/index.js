@@ -8,6 +8,8 @@ const Header = () => {
         <h1 className="header__title"> DuoEcoTech </h1>
         <nav className="header__nav">
           <NavLink exact to="/" activeClassName="selected" className="header__nav__item">Início</NavLink>
+          <NavLink exact to="/about" activeClassName="selected" className="header__nav__item">Sobre</NavLink>
+          <NavLink exact to="/services" activeClassName="selected" className="header__nav__item">Serviços</NavLink>
           <NavLink to="/contact" activeClassName="selected" className="header__nav__item">Contato</NavLink>
         </nav>
       </article>

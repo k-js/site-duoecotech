@@ -1,16 +1,14 @@
-
-import Carousel from "../../components/Carousel";
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
-import MainSection from "../../components/MainSection"
+import ServicesProducts from "../../components/ServicesProducts"
 import SocialIcons from "../../components/SocialIcons"
 
-export const Home = () => {
+export const Services = () => {
     return (
       <>
       <Header/>
       <SocialIcons/>
-      <MainSection/>
+      <ServicesProducts/>
       <Footer/>
       </>
     )
